@@ -1,0 +1,61 @@
+
+            .subscribe-button{
+            background-color: rgb(200,0,0);
+            color: white;
+            border: none;
+            height: 32px;
+            width: 100px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-style: bold;
+            
+            transition: background-color 1s,color 1s;
+            }
+            .subscribe-button:hover{
+                background-color:rgb(0, 255, 119);
+                color:rgb(200,0,0);
+            }
+            .subscribe-button:active{
+                opacity: 0.4;
+            }
+        
+            .join-button{
+                border: 1px solid rgb(0, 179, 255);
+                border-width: 1.5px;
+                background-color: white;
+                font-weight: bold;
+                font-size: 12px;
+                color: rgb(0, 140, 255);
+                height:32px;
+                width: 65px;
+                border-radius: 6px;
+                margin-left: 9px;
+                cursor: progress;
+        
+                transition: background-color 1s;
+        
+        
+            }
+        
+            .join-button:hover{
+                background-color:rgb(0, 140, 255);
+                color: white;
+            }
+            .join-button:active{
+                opacity:0.7
+            }
+        
+            .hackerRank-button{
+                background-color: rgba(17, 128, 0, 0.729);
+                color: black;
+                height: 32px;
+                width:95px;
+                border:none;
+                border-radius: 16px;
+                font-weight: bold;
+                margin-left: 9px;
+                transition: 0.25s;
+            }
+            .hackerRank-button:hover{
+                box-shadow: 2.8px 1.85px 5px rgba(0,0,0,0.4);
+            }
