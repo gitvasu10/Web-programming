@@ -1,28 +1,33 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Youtube.com Clone</title>
 <style>
     body{
-        background-color: ;
+        background-color: rgba(0, 0, 0, 0.888);
+        
     }
+    
     .thumbnail{
         width: 300px;
-        
+        border-radius: 15px;;
         object-fit: contain;
         
         vertical-align: middle;
-        margin-left: 2px;
+        margin-left: 1px;
         
 
     }
     .search-button{
         width: 300px;
-        font-size: 21px;
+        border-color: gray;
+        font-size: 31px;
         margin: auto;
         border-radius: 20px;
         display: block;
         margin-bottom: 25px;
+        background-color: rgba(0, 0, 0, 0.807);
         
         
      
@@ -30,12 +35,16 @@
     .video-title,.channel-name,.video-title,.views{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    .video-title,.channel-name,.views{
+        color: white;
+    }
     .video-title{
         
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 8px;
         width: 300px;
         font-weight: bold;
+        
     }
     .views{        
         font-size: 12px;
@@ -59,24 +68,56 @@
         vertical-align: middle;
 
     }
+    .Code-With-John{
+        width: 301px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+    }
+    .Fly-By-Midnight{
+        width: 301px;;
+        display: inline-block;
+
+    }
     
 </style>
     </head>
     <body>
        
         <input class="search-button" type = "text" placeholder="Search">
-        <img class="thumbnail" src="https://i.ytimg.com/vi/Mlbyft_MFYM/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBR6Ab1wyuAW5H0EZdPZUUId0VOuw"> 
-        <p class="video-title">
-            Java's Garbage Collection Explained-How it Saves your Lazy Programmer Butt
-        </p>
+        
+    
+        <div class="Code-With-John">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/Mlbyft_MFYM/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBR6Ab1wyuAW5H0EZdPZUUId0VOuw"> 
+            <p class="video-title">
+                Java's Garbage Collection Explained-How it Saves your Lazy Programmer Butt
+            </p>
+    
+            <p class="views">8.9K views &#183 5 days ago</p>
+            <br>
+            <img class="channel-icon" src="https://yt3.ggpht.com/ytc/APkrFKZiDVO_0Vv_PjJXVtSedroiUPwV0Ing64la-RRl=s68-c-k-c0x00ffffff-no-rj">
+            <p class="channel-name">Coding with John</p>
+        </div>
 
-        <p class="views">8.9K views &#183 5 days ago</p>
-        <br>
-        <img class="channel-icon" src="https://yt3.ggpht.com/ytc/APkrFKZiDVO_0Vv_PjJXVtSedroiUPwV0Ing64la-RRl=s68-c-k-c0x00ffffff-no-rj">
-        <p class="channel-name">Coding with John</p>
+
+
+        <div class="Fly-By-Midnight">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/_eXFFOTGD1I/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAUc6mpDMMIOSq9kbKBtHxGxQ4R7w"> 
+            <p class="video-title">
+                In The Night-Fly By Midnight(Official Lyric Video)
+            </p>
+    
+            <p class="views">2M views &#183 1 year ago</p>
+            <br>
+            <img class="channel-icon" src="../thumbnails/Fly-By-Midnight.jpg">
+            <p class="channel-name">Fly By Midnight  &#9834</p>
+        </div>
     
     
     
+
+
     
     </body>
+
 </html>
